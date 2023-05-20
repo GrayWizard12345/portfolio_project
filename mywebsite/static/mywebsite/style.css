@@ -17,3 +17,34 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+.blog_frame {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(79, 150, 245, 0.5);
+    border-radius: 5px;
+    transition: transform .15s;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.blog_frame:hover{
+    transform: scale(1.02);
+}
+
+body {
+    background-image: url("https://wallpapercrafter.com/desktop/162202-simple-minimalism-blue-background-clouds-cyan-cyan-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comments_frame {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid rgba(79, 150, 245, 0.5);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
